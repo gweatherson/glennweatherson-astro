@@ -3,13 +3,30 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Anything on this site can be taken, chewed up, and excreted at your own pace.
+	<p>&copy; {today.getFullYear()} Anything on this site can be taken, chewed up, and excreted at your own pace.</p>
+	<ul>
+		<li><a href="https://twitter.com/whoocareesssss">Twitter</a></li>
+		<li><a href="https://github.com/gweatherson">Github</a></li>
+		<li><a href="mailto:gweatherson@gmail.com">gweatherson@gmail.com</a></li>
+	</ul>
 </footer>
 <style>
 	footer {
 		font-family: var(--mono-font);
 		padding: 2em;
 		text-align: center;
+		color: var(--light-grey);
+	}
+
+	footer ul {
+		list-style: none;
+		display: flex;
+		text-transform: lowercase;
+		justify-content: center;
+	}
+
+	footer ul li a {
+		padding: 1em;
 		color: var(--light-grey);
 	}
 </style>
