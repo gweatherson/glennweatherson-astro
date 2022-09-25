@@ -2,4 +2,4 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Glenn Weatherson';
-export const SITE_DESCRIPTION = '';
+export const SITE_DESCRIPTION = 'The landing zone for a person by the name of Glenn Weatherson';
