@@ -1,17 +1,18 @@
 ---
-import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../config';
 ---
 
 <header>
 	<h2>{SITE_TITLE}</h2>
+	<h3>Web Developer</h3>
 </header>
 <style>
 	header {
-		font-family: var(--mono-font);
 		text-align: center;
 	}
-	h2 {
-		margin: 0.5em 0;
+
+	h2,
+	h3 {
+		margin: 0;
 	}
 </style>
