@@ -10,6 +10,7 @@ html {
 }
 
 body {
+	margin: 0;
 	font-size: clamp(1.2rem, 4vw, 1.2rem);
 	font-family: var(--font);
 	background: var(--black) url('./texture2.webp') fixed no-repeat;
