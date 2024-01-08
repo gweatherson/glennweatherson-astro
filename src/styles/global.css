@@ -12,7 +12,7 @@ html {
 body {
 	font-size: clamp(1.2rem, 4vw, 1.2rem);
 	font-family: var(--font);
-	background: var(--black) url('./texture2.jpg') fixed no-repeat;
+	background: var(--black) url('./texture2.webp') fixed no-repeat;
 	background-size: cover;
 	line-height: 1.8;
 	color: var(--white);
